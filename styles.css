@@ -146,3 +146,61 @@ footer ul li span {
   font-weight: bold;
   color: rgb(154, 155, 155);
 }
+
+@media (max-width: 680px) {
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .insta-phone {
+    display: none;
+  }
+  .insta-continue {
+    display: flex;
+    align-items: center; /* Horizontal */
+    justify-content: center; /* Vertical */
+    flex-direction: column;
+
+    margin-left: 50%;
+
+    width: 100%;
+    min-height: 50rem;
+  }
+  .group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    background: #ffffff;
+
+    width: 120%;
+    padding: 30px 20px;
+    border: 1px solid lightgray;
+
+    margin-left: 0 auto;
+  }
+
+  .profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .profile-photo img {
+    height: 10rem;
+  }
+
+  footer {
+    min-width: 100vh;
+  }
+
+  footer ul li a {
+    display: none;
+  }
+}
