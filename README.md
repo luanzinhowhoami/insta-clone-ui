@@ -1,6 +1,6 @@
 # insta-clone-ui
 
-## Clone do Instagram do curso da DIO
+## Clone da landing page Instagram do curso da DIO
 
 ---
 
@@ -9,3 +9,7 @@
 - HTMl5
 - CSS3
   - Usando o FlexBox Layout
+
+#### Landing page
+
+- data 18/10/2020
